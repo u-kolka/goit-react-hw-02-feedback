@@ -33,7 +33,7 @@ class App extends React.Component {
             return previousValue += number;
         }, 0);
 
-        const countPositiveFeedbackPercentage = ((feedback.good * 100) / countTotalFeedback).toFixed(1);
+        const countPositiveFeedbackPercentage = ((feedback.good * 100) / countTotalFeedback).toFixed(0);
 
         return (
             <>
